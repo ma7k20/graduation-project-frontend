@@ -1,0 +1,348 @@
+ body {
+     font-family: 'Cairo', sans-serif !important;
+     margin: 0;
+     padding: 0;
+ }
+
+ .section-EFF4FE {
+     background-color: #EFF4FE !important;
+ }
+
+ .section-F9F9FF {
+     background-color: #F9F9FF !important;
+ }
+
+ nav {
+     height: 80px !important;
+     backdrop-filter: blur(10px);
+     background: rgba(255, 255, 255, 0.7);
+ }
+
+ .brand-gradient {
+     background: linear-gradient(135deg, #7c3aed, #2563eb);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     font-size: 28px !important;
+ }
+
+ /* Logo */
+ .logo {
+     width: 45px;
+     height: 45px;
+ }
+
+ /* Hover effects */
+ .btn-outline-primary:hover {
+     background: #2563eb;
+     color: #fff !important;
+     transform: scale(1.05);
+ }
+
+ .btn-gradient:hover {
+     filter: brightness(1.1);
+     transform: scale(1.05);
+ }
+
+ /* Hamburger Custom */
+ .navbar-toggler {
+     outline: none !important;
+     box-shadow: none !important;
+ }
+
+ /* Hero Section */
+ .hero {
+     background: linear-gradient(135deg, #f4f6ff, #ffffff);
+     padding: 80px 15px;
+     text-align: center;
+ }
+
+ .hero-title {
+     font-size: 70px;
+     font-weight: 900;
+     color: #111827;
+ }
+
+ .hero-title span {
+     background: linear-gradient(to left, #7c3aed, #2563eb);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+ .hero-text {
+     color: #6b7280;
+     font-size: 19px;
+     margin-top: 15px;
+     margin-bottom: 30px;
+ }
+
+ #start,
+ #search {
+     border-radius: 120px !important;
+     font-weight: bold !important;
+     font-size: 17px !important;
+     padding: 18px 30px !important;
+     transition: 0.3s;
+ }
+
+ #start {
+     background: linear-gradient(to left, #7c3aed, #2563eb);
+     color: #fff !important;
+     border: none;
+ }
+
+ #start:hover {
+     transform: scale(1.05);
+ }
+
+ #search {
+     background: #fff !important;
+     color: #000 !important;
+     border: 1px solid #bdbdbd;
+ }
+
+ #search:hover {
+     transform: scale(1.05);
+ }
+
+ /* Features */
+ .feature-card {
+     background: #fff;
+     padding: 25px 15px;
+     border-radius: 16px;
+     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+     transition: all 0.3s ease;
+     height: 100%;
+     text-align: center;
+ }
+
+ .feature-card .icon {
+     font-size: 36px;
+     margin-bottom: 15px;
+     color: #3b82f6;
+ }
+
+ .feature-card:hover {
+     transform: translateY(-8px);
+     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+ }
+
+ /* Grades */
+ .grade-card {
+     background: linear-gradient(135deg, #4f7cff, #9333ea);
+     color: #fff;
+     border-radius: 18px;
+     padding: 20px 0;
+     text-align: center;
+     cursor: pointer;
+     transition: all 0.35s ease;
+     margin: auto;
+     width: 100%;
+     max-width: 150px;
+ }
+
+ .grade-card span {
+     display: block;
+     font-size: 18px;
+     margin-bottom: 5px;
+     font-weight: bold;
+ }
+
+ .grade-card strong {
+     font-size: 28px;
+     font-weight: 700;
+ }
+
+ .grade-card:hover {
+     transform: rotate(6deg) translateY(-10px) scale(1.05);
+ }
+
+ /* Steps */
+ .steps-wrapper {
+     max-width: 900px;
+     margin: auto;
+ }
+
+ .step-item {
+     position: relative;
+     background: #fff;
+     border-radius: 16px;
+     padding: 25px 60px 25px 25px;
+     margin-bottom: 25px;
+     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+ }
+
+ .step-number {
+     position: absolute;
+     top: 50%;
+     right: -25px;
+     transform: translateY(-50%);
+     width: 50px;
+     height: 50px;
+     border-radius: 50%;
+     background: linear-gradient(135deg, #4f7cff, #9333ea);
+     color: #fff;
+     font-size: 20px;
+     font-weight: bold;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+ /* Access Section */
+ .access-section {
+     background: linear-gradient(90deg, #3b82f6 0%, #7c3aed 50%, #9333ea 100%);
+     border-radius: 28px;
+     padding: 40px 15px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     text-align: center;
+ }
+
+ .access-icon i {
+     font-size: 54px;
+     opacity: 0.95;
+ }
+
+ .access-text {
+     max-width: 500px;
+     font-size: 20px;
+     margin: 15px auto;
+     opacity: 0.95;
+ }
+
+ .access-pill {
+     background: rgba(255, 255, 255, 0.18);
+     border-radius: 999px;
+     padding: 12px 26px;
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     font-size: 16px;
+     backdrop-filter: blur(6px);
+     font-weight: 500;
+     margin: 5px;
+ }
+
+ /* CTA */
+ .cta-section {
+     background: #fafafa;
+     padding: 60px 15px;
+ }
+
+ .cta-btn {
+    background: linear-gradient(to left, #7c3aed, #2563eb);
+     color: #fff !important;
+     border: none;
+     border-radius: 120px !important;
+     font-weight: bold !important;
+     font-size: 17px !important;
+     padding: 18px 30px !important;
+     transition: 0.3s;
+ }
+
+ .cta-btn:hover {
+     transform: scale(1.05);
+ }
+
+ /* Footer */
+ .edu-footer {
+     background: linear-gradient(135deg, #0f172a, #020617);
+     color: #fff;
+     padding: 40px 15px;
+ }
+
+ .footer-icon {
+     width: 46px;
+     height: 46px;
+     border-radius: 14px;
+     background: linear-gradient(135deg, #6366f1, #9333ea);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 22px;
+ }
+
+ .footer-links a {
+     color: #cbd5f5;
+     text-decoration: none;
+ }
+
+ .footer-links a:hover {
+     color: #fff;
+     text-decoration: underline;
+ }
+
+ /* Media Queries */
+ @media (max-width: 1200px) {
+     .hero-title {
+         font-size: 55px;
+     }
+ }
+
+ @media (max-width: 992px) {
+     .hero-title {
+         font-size: 45px;
+     }
+
+     .hero-text {
+         font-size: 17px;
+     }
+
+     .grade-card strong {
+         font-size: 24px;
+     }
+ }
+
+ @media (max-width: 768px) {
+     .hero-title {
+         font-size: 35px;
+     }
+
+     .hero-text {
+         font-size: 16px;
+     }
+
+     .step-item {
+         padding: 20px 45px 20px 20px;
+     }
+
+     .step-number {
+         width: 45px;
+         height: 45px;
+         font-size: 18px;
+         right: -20px;
+     }
+
+     .grade-card {
+         max-width: 120px;
+     }
+ }
+
+ @media (max-width: 576px) {
+     .hero-title {
+         font-size: 28px;
+     }
+
+     .hero-text {
+         font-size: 14px;
+     }
+
+     #start,
+     #search {
+         padding: 12px 15px !important;
+         font-size: 14px !important;
+     }
+
+     .step-item {
+         padding: 15px 40px 15px 15px;
+     }
+
+     .step-number {
+         width: 40px;
+         height: 40px;
+         font-size: 16px;
+         right: -18px;
+     }
+ }
