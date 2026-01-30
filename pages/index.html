@@ -1,270 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/home.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poetsen+One&family=Readex+Pro:wght@160..700&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <title>منصة بنوك الأسئلة وفق المنهاج الفلسطيني</title>
-</head>
-
-<body>
-
-    <!-- Navbar عصري مع Hamburger وعرض الأزرار على الطرف -->
-    <nav class="navbar navbar-expand-lg sticky-top shadow-sm"
-        style="background: rgba(255,255,255,0.75); backdrop-filter: blur(12px);">
-        <div class="container">
-            <!-- Logo + Brand -->
-            <a class="navbar-brand d-flex align-items-center fw-bold brand-gradient" href="#">
-                <img class="logo me-2" src="../img/logo.jpg" alt="logo">
-                منصة بنوك الأسئلة
-            </a>
-
-            <!-- Hamburger Button -->
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarButtons" aria-controls="navbarButtons" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon" style="width:30px; height:30px; background-image:none;">
-                    <i class="bi bi-list" style="font-size:28px; color:#2563eb;"></i>
-                </span>
-            </button>
-
-            <!-- Buttons -->
-            <div class="collapse navbar-collapse justify-content-lg-end" id="navbarButtons">
-                <!-- flex-column for mobile, flex-lg-row for large screens -->
-                <div
-                    class="d-flex flex-column flex-lg-row gap-2 gap-lg-3 mt-2 mt-lg-0 align-items-end align-items-lg-center">
-                    <a href="login.html" class="btn btn-outline-primary fw-bold px-4 py-2 rounded-pill shadow-sm">تسجيل
-                        الدخول</a>
-                    <a href="signup.html" class="btn btn-gradient fw-bold px-4 py-2 rounded-pill shadow-sm"
-                        style="background: linear-gradient(135deg,#7c3aed,#2563eb); color:#fff;">
-                        إنشاء حساب
-                    </a>
-                </div>
-            </div>
-        </div>
-    </nav>
-
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container">
-            <h1 class="hero-title">طور مهاراتك الدراسية <br><span>بطريقة ذكية وممتعة</span></h1>
-            <p class="hero-text">منصة تعليمية تفاعلية توفر بنك أسئلة شامل للمنهاج الفلسطيني<br>من الصف الأول حتى الثاني
-                عشر – العلمي والأدبي</p>
-            <div class="d-flex flex-wrap justify-content-center gap-3 mt-4">
-                <a href="#" id="start" class="btn">ابدأ الاختبار الآن</a>
-                <a href="#" id="search" class="btn">استكشف المواد</a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features Section -->
-    <section class="features py-5 section-F9F9FF">
-        <div class="container text-center">
-            <h2 class="fw-bold mb-2" style="font-size: 40px;">مميزات المنصة</h2>
-            <p class="text-muted mb-5" style="font-size: 20px;">كل ما تحتاجه للتفوق الدراسي في مكان واحد</p>
-            <div class="row g-4">
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="feature-card">
-                        <div class="icon">📘</div>
-                        <h5 class="fw-bold">بنك أسئلة شامل</h5>
-                        <p class="text-muted">مكتبة واسعة من الأسئلة لجميع الصفوف والمواد الدراسية</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="feature-card">
-                        <div class="icon">🧠</div>
-                        <h5 class="fw-bold">اختبارات ذاتية</h5>
-                        <p class="text-muted">قيّم مستواك وتدرب على الامتحانات بطريقة تفاعلية وممتعة</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="feature-card">
-                        <div class="icon">🎯</div>
-                        <h5 class="fw-bold">نتائج فورية</h5>
-                        <p class="text-muted">احصل على تقييم مباشر لأدائك مع تحليل مفصل للإجابات</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="feature-card">
-                        <div class="icon">♿</div>
-                        <h5 class="fw-bold">إمكانية الوصول</h5>
-                        <p class="text-muted">منصة مصممة لتكون سهلة الاستخدام للجميع بما فيهم ذوي الإعاقة البصرية</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Grades Section -->
-    <section class="grades py-5 section-EFF4FE">
-        <div class="container text-center">
-            <h2 class="fw-bold mb-2" style="font-size: 40px;">الصفوف الدراسية</h2>
-            <p class="text-muted mb-5" style="font-size: 20px;">اختر صفك الدراسي وابدأ رحلة التعلم</p>
-            <div class="row g-3 justify-content-center">
-                <!-- الصفوف 1-12 -->
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="grade-card"><span>الصف</span><strong>1</strong></div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="grade-card"><span>الصف</span><strong>2</strong></div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="grade-card"><span>الصف</span><strong>3</strong></div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="grade-card"><span>الصف</span><strong>4</strong></div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="grade-card"><span>الصف</span><strong>5</strong></div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="grade-card"><span>الصف</span><strong>6</strong></div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="grade-card"><span>الصف</span><strong>7</strong></div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="grade-card"><span>الصف</span><strong>8</strong></div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="grade-card"><span>الصف</span><strong>9</strong></div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="grade-card"><span>الصف</span><strong>10</strong></div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="grade-card"><span>الصف</span><strong>11</strong></div>
-                </div>
-                <div class="col-6 col-md-4 col-lg-2">
-                    <div class="grade-card"><span>الصف</span><strong>12</strong></div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Steps Section -->
-    <section class="how-it-works py-5 section-F9F9FF">
-        <div class="container text-center">
-            <h2 class="fw-bold mb-2" style="font-size: 40px;">كيف تعمل المنصة</h2>
-            <p class="text-muted mb-5" style="font-size: 20px;">خطوات بسيطة للبدء في التعلم</p>
-            <div class="steps-wrapper px-3 d-sm">
-                <div class="step-item">
-                    <div class="step-content">
-                        <h5 class="fw-bold">سجّل الدخول للمنصة</h5>
-                        <p class="text-muted mb-0">أنشئ حسابك أو قم بتسجيل الدخول</p>
-                    </div>
-                    <div class="step-number">1</div>
-                </div>
-                <div class="step-item">
-                    <div class="step-content">
-                        <h5 class="fw-bold">اختر صفك الدراسي</h5>
-                        <p class="text-muted mb-0">من الصف الأول حتى الثاني عشر</p>
-                    </div>
-                    <div class="step-number">2</div>
-                </div>
-                <div class="step-item">
-                    <div class="step-content">
-                        <h5 class="fw-bold">اختر المادة</h5>
-                        <p class="text-muted mb-0">حدد المادة التي تريد التدرب عليها</p>
-                    </div>
-                    <div class="step-number">3</div>
-                </div>
-                <div class="step-item">
-                    <div class="step-content">
-                        <h5 class="fw-bold">ابدأ الاختبار</h5>
-                        <p class="text-muted mb-0">أجب عن الأسئلة خلال الوقت المحدد</p>
-                    </div>
-                    <div class="step-number">4</div>
-                </div>
-                <div class="step-item">
-                    <div class="step-content">
-                        <h5 class="fw-bold">احصل على النتيجة</h5>
-                        <p class="text-muted mb-0">تقييم فوري مع تحليل أدائك</p>
-                    </div>
-                    <div class="step-number">5</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Access Section -->
-    <section class="container-fluid my-5 px-lg-5 px-3 d-sm">
-        <div class="access-section">
-            <div class="text-center text-white">
-                <div class="access-icon mb-3"><i class="bi bi-universal-access"></i></div>
-                <h1 class="fw-bold mb-3">منصة للجميع</h1>
-                <p class="lead mb-4 access-text">صممنا المنصة لتكون سهلة الاستخدام للجميع، مع دعم كامل للقراءة الصوتية
-                    لضمان وصول التعليم لكل طالب</p>
-                <div class="d-flex justify-content-center flex-wrap gap-3">
-                    <div class="access-pill"><i class="bi bi-clock"></i> متاح 24/7</div>
-                    <div class="access-pill"><i class="bi bi-graph-up"></i> تتبع التقدم</div>
-                    <div class="access-pill"><i class="bi bi-award"></i> شهادات إنجاز</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta-section text-center">
-        <div class="container">
-            <h2 class="fw-bold mb-3" style="font-size: 40px;">جاهز لتحسين مستواك الدراسي؟</h2>
-            <p class="cta-text mb-4" style="font-size: 20px;">انضم لآلاف الطلاب الذين يستخدمون منصتنا يوميًا لتحقيق
-                التميز الأكاديمي</p>
-            <a href="#" class="btn cta-btn">ابدأ مجانًا الآن</a>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="edu-footer mt-5">
-        <div class="container">
-            <div class="row gy-4 align-items-center">
-                <div class="col-lg-4 text-center text-lg-end">
-                    <div class="d-flex justify-content-center justify-content-lg-end align-items-center gap-3 mb-3">
-                        <div class="footer-icon"><i class="bi bi-mortarboard-fill"></i></div>
-                        <h4 class="mb-0 fw-bold">منصة التعليم</h4>
-                    </div>
-                    <p class="footer-desc">منصة تعليمية تفاعلية لدعم المنهاج الفلسطيني ومساعدة الطلبة على التفوق
-                        الأكاديمي.</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <h6 class="fw-semibold mb-3">روابط سريعة</h6>
-                    <ul class="list-unstyled footer-links">
-                        <li><a href="#">الرئيسية</a></li>
-                        <li><a href="#">الأسئلة الشائعة</a></li>
-                        <li><a href="#">تواصل معنا</a></li>
-                    </ul>
-                </div>
-                <div class="col-lg-4 text-center text-lg-start">
-                    <h6 class="fw-semibold mb-3">معلومات</h6>
-                    <p class="small mb-1">📧 fadialaa6407@gmail.com</p>
-                    <p class="small mb-1">📞 +972 592 116 407</p>
-                    <p class="small">📍 فلسطين</p>
-                </div>
-            </div>
-            <hr class="footer-divider my-4">
-            <div class="text-center small opacity-75">© 2026 جميع الحقوق محفوظة – منصة التعليم</div>
-        </div>
-    </footer>
-
-
-
-
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
-</body>
-
-</html>
